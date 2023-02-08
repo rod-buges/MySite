@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Code', 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #0A192F;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+header{
+  width: 100%;
+ position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 27px 10%;  
+}
+.logo{
+  margin-left: -84px;
+  display: flex;
+  height: 40px; 
+}
+
+nav{
+  margin: 0px;
+  display: flex;
+  z-index: 12;
+  padding-top: -1px;
+    color:#ccd6f6;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  
+}
+
+nav li{
+  margin-right: -5px;
+  display: inline-block;
+  list-style: none;
+  padding: 0px 10px;
+}
+
+a{
+  
+  position: relative;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 400;
+  color:#05A7F8;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+nav li a:hover{
+  color:  aqua;
+  transition: all 0.4s ease 0s;
+}
+
+
+.socialmedias{
+  list-style-type: none;
+}
+  
+
+.vertical-line {
+  position: fixed;
+  bottom: 0%;
+  left: 5.3%; /* ou right, depende da posição desejada */
+  width: 1px; /* largura da linha */
+  height: 15%; /* altura da linha */
+  background-color: #05A7F8  ; /* cor da linha */
+}
+
+
+.container-medias{
+  
+  display: flex;
+  position: fixed;
+  bottom: 17.5%;
+  left: 4.7%;
+
+}
+
+.socialicons{
+  
+  display: flex;
+  padding-top: 60%;
+  margin-top: 10%;
+}
+
+.socialicons:hover{
+  color:  aqua;
+  transition: all 0.4s ease 0s;
+}
+
+.vertical-line-right {
+  position: fixed;
+  bottom: 0%;
+  right: 5.3%; /* ou right, depende da posição desejada */
+  width: 1px; /* largura da linha */
+  height: 17%; /* altura da linha */
+  background-color: #05A7F8  ; /* cor da linha */
+}
+
+.emailadress{
+  letter-spacing: 2px;
+  font-family: 'Fira Code', 'Inter', sans-serif;
+  transform: rotate(90deg);
+  position: fixed;
+  bottom: 34.5%;
+  right: -3.3%; 
+}
+
+.emailadress:hover{
+  color:  aqua;
+  transition: transform 0.25s;
+  transition: all 0.4s ease 0s;
+  transform: top(1px);
+}
+
+
+section{
+  margin: 0px auto;
+  padding: 100px 0px;
+  max-width: 1000px;
+}
+
+h1{
+  color: #05A7F8;
+  margin: 0px 0px 30px 4px;
+  font-family: 'Fira Code', 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none solid rgb(100, 255, 218);
+  padding-top: 9%;
+}
+
+h2{
+  margin-top: -2.2%;
+  font-family: 'Calibre', 'Inter', "San Francisco", "SF Pro Text", "sans-serif";
+  font-size: 70px;
+  font-weight: 600;
+  text-decoration: none solid rgb(204, 214, 246);
+  color: #CCD6F6;
+}
+
+h3{
+  margin-top: 0.6%;
+  font-family: 'Calibre', 'Inter', "San Francisco", "SF Pro Text", "sans-serif";
+  font-size: 70px;
+  font-weight: 600;
+  text-decoration: none solid rgb(204, 214, 246);
+  color: #8892B0;
+}
+
+p{
+  margin-top: 2.2%;
+  font-family: 'Calibre', 'Inter', "San Francisco", "SF Pro Text", "sans-serif";
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none solid rgb(204, 214, 246);
+  color: #8892B0;
+}
+
+.contactme{
+  display: inline-block;
+  font-family: 'Fira Code', 'Inter', sans-serif;
+  font-weight: 400;
+  margin-left: 13.5%;
+  bottom: 5%;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #05A7F8;
+  border-radius: 4px;
+  height: 56px;
+  width: 225px;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  line-height: 53px;
+}
+
+.contactme:hover{
+  color: aqua;
+  background-color:  rgba(0, 255, 255, 0.355);
+  transition: all 0.4s ease 0s;
+}
+
+
