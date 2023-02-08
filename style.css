@@ -87,7 +87,6 @@ nav li a:hover{
 }
 
 .socialicons{
-  
   display: flex;
   padding-top: 60%;
   margin-top: 10%;
@@ -108,13 +107,15 @@ nav li a:hover{
 }
 
 .emailadress{
+  font-size: 0.9em;
   letter-spacing: 2px;
   font-family: 'Fira Code', 'Inter', sans-serif;
   transform: rotate(90deg);
   position: fixed;
-  bottom: 34.5%;
-  right: -3.3%; 
+  bottom: 30%;
+  right: -1.5%; 
 }
+
 
 .emailadress:hover{
   color:  aqua;
@@ -125,7 +126,7 @@ nav li a:hover{
 
 
 section{
-  margin: 0px auto;
+  margin: 0px 160px;
   padding: 100px 0px;
   max-width: 1000px;
 }
@@ -149,7 +150,7 @@ h2{
   color: #CCD6F6;
 }
 
-h3{
+h3{ 
   margin-top: 0.6%;
   font-family: 'Calibre', 'Inter', "San Francisco", "SF Pro Text", "sans-serif";
   font-size: 70px;
@@ -171,7 +172,7 @@ p{
   display: inline-block;
   font-family: 'Fira Code', 'Inter', sans-serif;
   font-weight: 400;
-  margin-left: 13.5%;
+  margin-left: 8.4%;
   bottom: 5%;
   cursor: pointer;
   background-color: transparent;
