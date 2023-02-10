@@ -106,7 +106,12 @@ nav li a:hover{
   background-color: #05A7F8  ; /* cor da linha */
 }
 
+p.emailadress{
+  position: fixed;
+}
+
 .emailadress{
+  color: #05A7F8;
   font-size: 0.9em;
   letter-spacing: 2px;
   font-family: 'Fira Code', 'Inter', sans-serif;
@@ -190,6 +195,20 @@ p{
   color: aqua;
   background-color:  rgba(0, 255, 255, 0.355);
   transition: all 0.4s ease 0s;
+}
+
+.ab-me{
+  color: #CCD6F6;
+  font-size: 40px;
+}
+
+.agrif{
+  color: aqua;
+  
+    font-family: 'Calibre', 'Inter', "San Francisco", "SF Pro Text", "sans-serif";
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none solid rgb(204, 214, 246);
 }
 
 
