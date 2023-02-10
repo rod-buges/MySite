@@ -6,6 +6,7 @@
 }
 
 body{
+  overflow: hidden;
   background-color: #0A192F;
   height: 100vh;
   background-size: cover;
@@ -13,6 +14,7 @@ body{
 }
 
 header{
+  backdrop-filter: blur(5px);
   width: 100%;
  position: fixed;
   display: flex;
@@ -211,4 +213,47 @@ p{
     text-decoration: none solid rgb(204, 214, 246);
 }
 
+@media (max-width: 1280px){
+  .emailadress{
+    bottom: 250px;
+    right: -60px;
+    position: fixed;
+  }
 
+  .contactme{
+    right: -50px;
+  }
+}
+
+@media (max-width: 1920px){
+  .contactme{
+    left: -1px;
+  }
+
+  .socialicons{
+    top: 5px;
+    left: 2px;
+  }
+
+  .emailadress{
+    bottom: -20px;
+  }
+}
+
+@media (max-width:2560px){
+  .emailadress{
+    right: 10px;
+    bottom: 380px;
+    position: fixed;
+  }
+  .socialicons{
+    right: -5.5px;
+    bottom: -15px;
+  }
+
+  .contactme{
+    right: 54px;
+  }
+
+
+}
